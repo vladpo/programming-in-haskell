@@ -3,7 +3,7 @@ module Main where
 import Data.List
 
 main :: IO ()
-main = print (ordSolutions [1,3,7,10,25,50] 50)
+main = print (ordSolutions [1,3,7,10,25,50] 765)
 
 data Op = Add | Sub | Mul | Div | Pow deriving Eq
 instance Show Op where
